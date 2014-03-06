@@ -5,3 +5,4 @@ status() {
 }
 
 status $(git rev-parse HEAD)
+status $(git rev-list --all --pretty=oneline)
