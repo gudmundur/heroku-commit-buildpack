@@ -6,7 +6,3 @@ status() {
 
 status $(git rev-parse HEAD)
 status $(git rev-list --all --pretty=oneline)
-
-status $(ls ..)
-status $(cat ../push_metadata.yml)
-status $(cat ../build_info.json)
