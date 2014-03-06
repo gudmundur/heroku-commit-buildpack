@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "Commit-Buildpack"
+exit 0
